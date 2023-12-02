@@ -147,5 +147,24 @@
   }
   .copywrite{
     margin-top: 16px;
-    margin-left: 18%;
+    margin-left: 20%;
   }
+
+  .contact{
+    margin-left: 30%;
+    margin-top: 15px;
+  }
+  .contact h2 a{
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    
+    color : rgb(115, 195, 226);
+    background-color: red;
+  }
+.contact h2 a:hover{
+    background-color: aquamarine;
+    
+    color: black;
+
+}
