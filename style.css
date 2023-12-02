@@ -96,6 +96,8 @@
 .home-logo:hover{
     transition: ease-out 0.5s;
     cursor: pointer;
+    background-color: rgb(174, 240, 236);
+    color: rgb(19, 35, 40);
   
   
 }
@@ -168,7 +170,7 @@
     background-color: red;
   }
 .contact h2 a:hover{
-    background-color: aquamarine;
+    background-color: rgb(187, 123, 248);
 
     color: black;
 
