@@ -145,6 +145,11 @@
    color: white;
    /* background-color: red; */
   }
+
+  .social ul li a:hover{
+    color: blueviolet;
+  }
+
   .copywrite{
     margin-top: 16px;
     margin-left: 20%;
@@ -164,7 +169,7 @@
   }
 .contact h2 a:hover{
     background-color: aquamarine;
-    
+
     color: black;
 
 }
