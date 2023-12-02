@@ -1,0 +1,151 @@
+ /* Header Styles */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.part {
+    height: 100%;
+    width: 24.9%;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    /* border: 2px solid white; */
+    text-align: center;
+    
+}
+
+.nav-btn{
+    margin-top: 2em;
+}
+
+.nav-btn a{
+    
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: white;
+}
+
+.part:hover{
+    height: 76px;
+    cursor: pointer;
+     transition: all .1s;
+     background-color: rgb(237, 77, 77);
+     border-bottom: 4px solid ;
+     
+}
+
+/* Homepage main content */
+
+.main-content{
+    display: flex;
+    
+    
+}
+
+.image1{
+    /* display: flex; */
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* box-sizing: border-box; */
+    /* background-size: cover; */
+    /* z-index: 1; */
+}
+.image1 img{
+    height: 100%;
+    width: 100%;
+}
+.img-text{
+    height: 30rem;
+    width: 35rem;
+    position: absolute;
+    font-size: 4rem;
+    top: 45%;
+    right: 6rem;
+    color: rgb(19, 35, 40);
+    /* border: 2px solid red; */
+    
+}
+
+.home-logo{
+    font-family: Arial, sans-serif;
+    position: absolute;
+    font-size: 1rem;
+    top: 11%;
+    left: 2rem;
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    border-radius: 20%;
+    /* border: 2px solid red; */
+    background-color: rgb(19, 35, 40);    text-align: center;
+    color: rgb(174, 240, 236);
+    opacity: 0.7;
+  
+    font-weight: 900;
+   
+}
+.home-logo:hover{
+    transition: ease-out 0.5s;
+    cursor: pointer;
+  
+  
+}
+.home-logo h1{
+    margin-top: 28%;
+    line-height: 50px;
+    padding-bottom: 15px;
+   
+}
+
+
+/* Foooter Started */
+
+.footer{
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    background-color: rgb(14, 26, 31);
+    border-top: 3px solid rgb(26, 54, 66);
+    box-shadow: 0px 0px 4px 4px grey;
+    color :rgb(115, 195, 226);
+}
+.social{
+   /* display: inline-block; */
+    font-family: 'Courier New', Courier, monospace;
+    font: bold;
+    font-size: 1.2rem;
+    margin-top : 15px;
+    margin-left:10px;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social ul li{
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+  .social ul li a{
+   color: white;
+   /* background-color: red; */
+  }
+  .copywrite{
+    margin-top: 16px;
+    margin-left: 18%;
+  }
